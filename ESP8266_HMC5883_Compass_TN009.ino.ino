@@ -71,6 +71,7 @@ void loop() {
   display.setCursor(0,38);
   display.fillRect(0,38,25,48,BLACK);
   display.print(angle);
+  display.print(char(247)); // and the degree symbol
   display.display();
   delay(100);
 }
